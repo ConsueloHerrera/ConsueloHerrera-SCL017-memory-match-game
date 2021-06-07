@@ -1,0 +1,7 @@
+.td {
+    width: 85px;
+    height: 100px;
+    background-color: rgb(222, 188, 252);
+    border: 3px solid rgb(247, 223, 243);
+    border-radius: 5px;
+  }

@@ -13,14 +13,42 @@
 //   .then(console.log)
 //   .catch(console.error);
 //
+import pokemon from '../data/pokemon/pokemon.js';
+ console.log(pokemon);
 
 const App = () => {
-  const el = document.createElement('div');
+  const mostrarImagenPokemon = document.createElement('div');
 
-  el.className = 'App';
-  el.textContent = 'Hola mundo!';
 
-  return el;
+  mostrarImagenPokemon.className = 'listaDePokemones';
+  
+
+
+
+  const shuffle = (arr) =>{
+    for(var i =arr.length-1 ; i>0 ;i--){
+        var j = Math.floor( Math.random() * (i + 1) );
+        [arr[i],arr[j]]=[arr[j],arr[i]];
+    }
+    return arr;    
+  
+  }
+  const pokemonAleatorio = shuffle(pokemon.items);
+
+  for (let i = 0; i < pokemonAleatorio.length; i++) {
+    const element = pokemonAleatorio[i];
+    mostrarImagenPokemon.innerHTML += `<img src ="${element.image}"></img>`
+    console.log(element.id)
+    
+  }
+  
+  console.log(shuffle(pokemon.items)); //cuando busco algo dentro de un objeto se utiliza . dice que items está dentro del objeto pokemon
+
+  return mostrarImagenPokemon;
+
 };
+const div1 = document.createElement ("div");
+div1.id="";
+div1.classname="td";
 
 export default App;
