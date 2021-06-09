@@ -23,8 +23,6 @@ const App = () => {
   mostrarImagenPokemon.className = 'listaDePokemones';
   
 
-
-
   const shuffle = (arr) =>{
     for(var i =arr.length-1 ; i>0 ;i--){
         var j = Math.floor( Math.random() * (i + 1) );
@@ -34,14 +32,31 @@ const App = () => {
   
   }
   const pokemonAleatorio = shuffle(pokemon.items);
+  const pokemonAleatorio2 = shuffle(pokemon.items);
 
-  for (let i = 0; i < pokemonAleatorio.length; i++) {
+const listCosito = (arr) => {
+    for (let i = 1; i < arr.length; i++) {
+        const element = arr[i];
+        /*if (i % 3 == 0) {
+          mostrarImagenPokemon.innerHTML += `<img src ="${element.image}"></img><br>`
+      } else {
+          mostrarImagenPokemon.innerHTML += `<img src ="${element.image}"></img>`
+      }*/
+        mostrarImagenPokemon.innerHTML += `<img name= "${element.id}" src="${element.image}"></img>`
+        console.log(element.id)
+      }
+    return arr;
+  };
+
+  listCosito(pokemonAleatorio);
+  listCosito(pokemonAleatorio2);
+
+  /*for (let i = 0; i < pokemonAleatorio.length; i++) {
     const element = pokemonAleatorio[i];
     mostrarImagenPokemon.innerHTML += `<img src ="${element.image}"></img>`
-    console.log(element.id)
-    
+    console.log(element.id)   
   }
-  
+  */
   console.log(shuffle(pokemon.items)); //cuando busco algo dentro de un objeto se utiliza . dice que items está dentro del objeto pokemon
 
   return mostrarImagenPokemon;
