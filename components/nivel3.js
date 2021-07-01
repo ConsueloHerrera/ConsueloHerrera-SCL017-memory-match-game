@@ -1,4 +1,4 @@
-import pokemon from "../data/pokemon/pokemon.js";
+import pokemon from "../src/data/pokemon/pokemon.js";
 
 // En nivel 3 todos los elementos
 function recortarLista(lista) {
