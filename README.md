@@ -8,7 +8,7 @@
 * [4. Test de usabilidad](#4-test-de-usabilidad)
 
 ***
-![Diseño de Página de Incio](src\img\QUEUE.png)
+![Diseño de Página de Incio](src/img/QUEUE.png)
  
  
 ¿Qué es **Queue**?
@@ -55,12 +55,12 @@
 <details>
 <summary> Click aquí </summary>
  
-> ![página 1](src\img\prototipoBaja.jpg)
+> ![página 1](src/img/prototipoBaja.jpg)
    
  
  ***          
  
-> ![Diagrama de flujo](src\img\Diagrama.jpg)
+> ![Diagrama de flujo](src/img/Diagrama.jpg)
 - *Gracias a esto notamos cual sería el desarrollo que ibamos a seguir.*  
  
 </details>
