@@ -69,10 +69,14 @@ Al iniciar el proyecto y teniendo la propuesta de nuestro producto hicimos un pr
    
  #### Prototipo de Alta en Figma
  
- Una vez realizado el test de usabilidad con nuestro prototipo de baja y habiendo recopilado toda la información recibida realizamos la maquetación de nuestro proyecto en Figma
+ Una vez realizado el test de usabilidad con nuestro prototipo de baja y habiendo recopilado toda la información recibida realizamos la maquetación de nuestro proyecto en Figma.
  
+ <details>
+<summary> Clic para ver el link </summary>
  https://www.figma.com/file/ZhMe0t1vw1JX7hiu5fEO87/memory-match?node-id=0%3A1
-
+  
+</details>
+<br>
 
 #### Diagrama de Flujo
 
