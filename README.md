@@ -13,10 +13,10 @@
  
 ### ¿Qué es **Queue**?
 
-Queue es un una herramienta de entretención a través de un juego de memoria con niveles de dificultad que permite jugar mientras se debe esperar en una fila online. Nos dimos cuenta que, debido a la pandemia, se ha incrementado el consumo de eventos o compras online y por lo mismo se generan filas de espera en las que es muy posible que a un usuario se le haga difícil mantenerse atento y esperar.
+Queue es un una herramienta de entretención, el cual a través de un juego de memoria con niveles de dificultad,  permite jugar mientras se debe esperar en una fila online. Nos dimos cuenta que, debido a la pandemia, se ha incrementado el consumo de eventos o compras online y por lo mismo se generan filas de espera en las que es muy posible que a un usuario se le haga difícil mantenerse atento y esperar para ingresar a dicho sitio.
  
 ####   Instrucciones de uso
-Con Queue mientras te entretienes mientras esperas. En el caso de esta plataforma, es a través de un juego de memoria en el que debes encontrar el par de cartas que contengan la misma imagen, y una vez que destapas todos los pares pasas al siguiente nivel.
+Con Queue te entretienes mientras esperas y es muy fácil hacerlo.  Una vez que ingresas y te encuentras en la fila se despliega un juego de memoria en el que debes encontrar los pares de cartas que contengan la misma imagen, una vez que destapas todos los pares... ¡Felicitaciones! pasas al siguiente nivel.
 
 ***
 ### Historias de usuario
