@@ -71,7 +71,7 @@ Al iniciar el proyecto y teniendo la propuesta de nuestro producto hicimos un pr
  
  Una vez realizado el test de usabilidad con nuestro prototipo de baja y habiendo recopilado toda la información recibida realizamos la maquetación de nuestro proyecto en Figma
  
- 
+ https://www.figma.com/file/ZhMe0t1vw1JX7hiu5fEO87/memory-match?node-id=0%3A1
 
 
 #### Diagrama de Flujo
